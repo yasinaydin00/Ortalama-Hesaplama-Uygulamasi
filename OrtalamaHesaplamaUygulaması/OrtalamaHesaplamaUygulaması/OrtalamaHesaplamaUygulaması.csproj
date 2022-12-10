@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F6EF86AA-C535-4ADE-898D-0A661F3D9F51}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>OrtalamaHesaplamaUygulaması</RootNamespace>
+    <AssemblyName>OrtalamaHesaplamaUygulaması</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Frm10Sınıf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm10Sınıf.Designer.cs">
+      <DependentUpon>Frm10Sınıf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm11Sınıf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm11Sınıf.Designer.cs">
+      <DependentUpon>Frm11Sınıf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm11SınıfEsitAgırlık.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm11SınıfEsitAgırlık.Designer.cs">
+      <DependentUpon>Frm11SınıfEsitAgırlık.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm11SınıfSayısal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm11SınıfSayısal.Designer.cs">
+      <DependentUpon>Frm11SınıfSayısal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm12Sınıf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm12Sınıf.Designer.cs">
+      <DependentUpon>Frm12Sınıf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm12SınıfEsitAgırlık.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm12SınıfEsitAgırlık.Designer.cs">
+      <DependentUpon>Frm12SınıfEsitAgırlık.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm12SınıfSayısal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm12SınıfSayısal.Designer.cs">
+      <DependentUpon>Frm12SınıfSayısal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm5Sınıf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm5Sınıf.Designer.cs">
+      <DependentUpon>Frm5Sınıf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm6Sınıf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm6Sınıf.Designer.cs">
+      <DependentUpon>Frm6Sınıf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm7Sınıf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm7Sınıf.Designer.cs">
+      <DependentUpon>Frm7Sınıf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm8Sınıf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm8Sınıf.Designer.cs">
+      <DependentUpon>Frm8Sınıf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm9Sınıf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm9Sınıf.Designer.cs">
+      <DependentUpon>Frm9Sınıf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAnaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAnaForm.Designer.cs">
+      <DependentUpon>FrmAnaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLise.Designer.cs">
+      <DependentUpon>FrmLise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOrtaokul.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOrtaokul.Designer.cs">
+      <DependentUpon>FrmOrtaokul.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Frm10Sınıf.resx">
+      <DependentUpon>Frm10Sınıf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm11Sınıf.resx">
+      <DependentUpon>Frm11Sınıf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm11SınıfEsitAgırlık.resx">
+      <DependentUpon>Frm11SınıfEsitAgırlık.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm11SınıfSayısal.resx">
+      <DependentUpon>Frm11SınıfSayısal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm12Sınıf.resx">
+      <DependentUpon>Frm12Sınıf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm12SınıfEsitAgırlık.resx">
+      <DependentUpon>Frm12SınıfEsitAgırlık.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm12SınıfSayısal.resx">
+      <DependentUpon>Frm12SınıfSayısal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm5Sınıf.resx">
+      <DependentUpon>Frm5Sınıf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm6Sınıf.resx">
+      <DependentUpon>Frm6Sınıf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm7Sınıf.resx">
+      <DependentUpon>Frm7Sınıf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm8Sınıf.resx">
+      <DependentUpon>Frm8Sınıf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm9Sınıf.resx">
+      <DependentUpon>Frm9Sınıf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAnaForm.resx">
+      <DependentUpon>FrmAnaForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLise.resx">
+      <DependentUpon>FrmLise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOrtaokul.resx">
+      <DependentUpon>FrmOrtaokul.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
