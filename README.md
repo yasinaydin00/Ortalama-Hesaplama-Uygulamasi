@@ -1,3 +1,3 @@
 # Ortalama-Hesaplama-Uygulamasi
-            Türkçe
+    Türkçe
 Bu Uygulama Sayesinde hem ortaokul hem lise karne notlarınızı hesaplayabilirsiniz
