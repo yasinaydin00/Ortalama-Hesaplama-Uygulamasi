@@ -29,6 +29,12 @@ namespace OrtalamaHesaplamaUygulaması
             TxtTürkçe8.Text = "";
             TxtYabancıDil8.Text = "";
             Txtİnkılap8.Text = "";
+            TxtSecmeli1.Text = "";
+            TxtSecmeli2.Text = "";
+            TxtSecmeli3.Text = "";
+            TxtDersSaat1.Text = "";
+            TxtDersSaat2.Text = "";
+            TxtDersSaat3.Text = "";
             TxtBeden8.Focus();
         }
 
@@ -57,8 +63,21 @@ namespace OrtalamaHesaplamaUygulaması
             double türkce1 = (5 * türkçe);
             double yabancıdil1 = (4 * yabancıdil);
 
-            ortalama = (beden1 + din1 + fen1 + gorsel1 + matematik1 + müzik1 + inkılap1 + teknoloji1 + türkce1 + yabancıdil1) / 28;
+            int secmeli1, secmeli2, secmeli3, secmelisaat1, secmelisaat2, secmelisaat3, toplam;
+            secmeli1 = Convert.ToInt16(TxtSecmeli1.Text);
+            secmeli2 = Convert.ToInt16(TxtSecmeli2.Text);
+            secmeli3 = Convert.ToInt16(TxtSecmeli3.Text);
+            secmelisaat1 = Convert.ToInt16(TxtDersSaat1.Text);
+            secmelisaat2 = Convert.ToInt16(TxtDersSaat2.Text);
+            secmelisaat3 = Convert.ToInt16(TxtDersSaat3.Text);
 
+            int secmeli01 = (secmeli1 * secmelisaat1);
+            int secmeli02 = (secmeli2 * secmelisaat2);
+            int secmeli03 = (secmeli3 * secmelisaat3);
+
+            toplam = (secmelisaat1 + secmelisaat2 + secmelisaat3 + 28);
+
+            ortalama = (beden1 + din1 + fen1 + gorsel1 + matematik1 + müzik1 + inkılap1 + teknoloji1 + türkce1 + yabancıdil1 + secmeli01 + secmeli02 + secmeli03) / toplam;
             if (ortalama >= 85)
             {
                 MessageBox.Show(" Ortalamanız: " + ortalama.ToString("0.0000") + "\n" + "Tebrikler Takdir Belgesi Almaya Hak Kazandınız", "Ortalama Durumu", MessageBoxButtons.OK, MessageBoxIcon.Information);

@@ -29,6 +29,7 @@ namespace OrtalamaHesaplamaUygulaması
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm6Sınıf));
             this.BtnTemizle6 = new System.Windows.Forms.Button();
             this.BtnHesapla6 = new System.Windows.Forms.Button();
             this.label20 = new System.Windows.Forms.Label();
@@ -62,6 +63,18 @@ namespace OrtalamaHesaplamaUygulaması
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.BtnGeri6Sınıf = new System.Windows.Forms.Button();
+            this.TxtDersSaat3 = new System.Windows.Forms.TextBox();
+            this.TxtDersSaat2 = new System.Windows.Forms.TextBox();
+            this.TxtDersSaat1 = new System.Windows.Forms.TextBox();
+            this.label26 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.TxtSecmeli3 = new System.Windows.Forms.TextBox();
+            this.label22 = new System.Windows.Forms.Label();
+            this.TxtSecmeli2 = new System.Windows.Forms.TextBox();
+            this.label21 = new System.Windows.Forms.Label();
+            this.TxtSecmeli1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // BtnTemizle6
@@ -69,7 +82,7 @@ namespace OrtalamaHesaplamaUygulaması
             this.BtnTemizle6.Location = new System.Drawing.Point(130, 668);
             this.BtnTemizle6.Name = "BtnTemizle6";
             this.BtnTemizle6.Size = new System.Drawing.Size(255, 59);
-            this.BtnTemizle6.TabIndex = 95;
+            this.BtnTemizle6.TabIndex = 18;
             this.BtnTemizle6.Text = "TEMİZLE";
             this.BtnTemizle6.UseVisualStyleBackColor = true;
             this.BtnTemizle6.Click += new System.EventHandler(this.BtnTemizle6_Click);
@@ -79,7 +92,7 @@ namespace OrtalamaHesaplamaUygulaması
             this.BtnHesapla6.Location = new System.Drawing.Point(130, 590);
             this.BtnHesapla6.Name = "BtnHesapla6";
             this.BtnHesapla6.Size = new System.Drawing.Size(255, 59);
-            this.BtnHesapla6.TabIndex = 94;
+            this.BtnHesapla6.TabIndex = 17;
             this.BtnHesapla6.Text = "HESAPLA";
             this.BtnHesapla6.UseVisualStyleBackColor = true;
             this.BtnHesapla6.Click += new System.EventHandler(this.BtnHesapla6_Click);
@@ -87,7 +100,7 @@ namespace OrtalamaHesaplamaUygulaması
             // label20
             // 
             this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(307, 535);
+            this.label20.Location = new System.Drawing.Point(328, 394);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(97, 24);
             this.label20.TabIndex = 93;
@@ -96,7 +109,7 @@ namespace OrtalamaHesaplamaUygulaması
             // label19
             // 
             this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(307, 478);
+            this.label19.Location = new System.Drawing.Point(328, 352);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(97, 24);
             this.label19.TabIndex = 92;
@@ -105,7 +118,7 @@ namespace OrtalamaHesaplamaUygulaması
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(307, 417);
+            this.label18.Location = new System.Drawing.Point(328, 310);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(97, 24);
             this.label18.TabIndex = 91;
@@ -114,7 +127,7 @@ namespace OrtalamaHesaplamaUygulaması
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(307, 352);
+            this.label17.Location = new System.Drawing.Point(328, 270);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(97, 24);
             this.label17.TabIndex = 90;
@@ -123,7 +136,7 @@ namespace OrtalamaHesaplamaUygulaması
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(307, 299);
+            this.label16.Location = new System.Drawing.Point(328, 231);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(97, 24);
             this.label16.TabIndex = 89;
@@ -132,7 +145,7 @@ namespace OrtalamaHesaplamaUygulaması
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(307, 245);
+            this.label15.Location = new System.Drawing.Point(328, 192);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(97, 24);
             this.label15.TabIndex = 88;
@@ -141,7 +154,7 @@ namespace OrtalamaHesaplamaUygulaması
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(307, 190);
+            this.label14.Location = new System.Drawing.Point(328, 150);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(97, 24);
             this.label14.TabIndex = 87;
@@ -150,7 +163,7 @@ namespace OrtalamaHesaplamaUygulaması
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(307, 133);
+            this.label13.Location = new System.Drawing.Point(328, 112);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(97, 24);
             this.label13.TabIndex = 86;
@@ -159,7 +172,7 @@ namespace OrtalamaHesaplamaUygulaması
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(307, 77);
+            this.label12.Location = new System.Drawing.Point(328, 69);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(97, 24);
             this.label12.TabIndex = 85;
@@ -168,7 +181,7 @@ namespace OrtalamaHesaplamaUygulaması
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(307, 28);
+            this.label11.Location = new System.Drawing.Point(328, 31);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(97, 24);
             this.label11.TabIndex = 84;
@@ -176,78 +189,78 @@ namespace OrtalamaHesaplamaUygulaması
             // 
             // TxtYabancıDil6
             // 
-            this.TxtYabancıDil6.Location = new System.Drawing.Point(225, 532);
+            this.TxtYabancıDil6.Location = new System.Drawing.Point(246, 391);
             this.TxtYabancıDil6.Name = "TxtYabancıDil6";
             this.TxtYabancıDil6.Size = new System.Drawing.Size(76, 29);
-            this.TxtYabancıDil6.TabIndex = 83;
+            this.TxtYabancıDil6.TabIndex = 10;
             // 
             // TxtTürkçe6
             // 
-            this.TxtTürkçe6.Location = new System.Drawing.Point(225, 475);
+            this.TxtTürkçe6.Location = new System.Drawing.Point(246, 349);
             this.TxtTürkçe6.Name = "TxtTürkçe6";
             this.TxtTürkçe6.Size = new System.Drawing.Size(76, 29);
-            this.TxtTürkçe6.TabIndex = 82;
+            this.TxtTürkçe6.TabIndex = 9;
             // 
             // TxtMüzik6
             // 
-            this.TxtMüzik6.Location = new System.Drawing.Point(225, 294);
+            this.TxtMüzik6.Location = new System.Drawing.Point(246, 226);
             this.TxtMüzik6.Name = "TxtMüzik6";
             this.TxtMüzik6.Size = new System.Drawing.Size(76, 29);
-            this.TxtMüzik6.TabIndex = 81;
+            this.TxtMüzik6.TabIndex = 6;
             // 
             // TxtMatematik6
             // 
-            this.TxtMatematik6.Location = new System.Drawing.Point(225, 240);
+            this.TxtMatematik6.Location = new System.Drawing.Point(246, 187);
             this.TxtMatematik6.Name = "TxtMatematik6";
             this.TxtMatematik6.Size = new System.Drawing.Size(76, 29);
-            this.TxtMatematik6.TabIndex = 80;
+            this.TxtMatematik6.TabIndex = 5;
             // 
             // TxtGörsel6
             // 
-            this.TxtGörsel6.Location = new System.Drawing.Point(225, 185);
+            this.TxtGörsel6.Location = new System.Drawing.Point(246, 145);
             this.TxtGörsel6.Name = "TxtGörsel6";
             this.TxtGörsel6.Size = new System.Drawing.Size(76, 29);
-            this.TxtGörsel6.TabIndex = 79;
+            this.TxtGörsel6.TabIndex = 4;
             // 
             // TxtFen6
             // 
-            this.TxtFen6.Location = new System.Drawing.Point(225, 128);
+            this.TxtFen6.Location = new System.Drawing.Point(246, 107);
             this.TxtFen6.Name = "TxtFen6";
             this.TxtFen6.Size = new System.Drawing.Size(76, 29);
-            this.TxtFen6.TabIndex = 78;
+            this.TxtFen6.TabIndex = 3;
             // 
             // TxtDin6
             // 
-            this.TxtDin6.Location = new System.Drawing.Point(225, 74);
+            this.TxtDin6.Location = new System.Drawing.Point(246, 66);
             this.TxtDin6.Name = "TxtDin6";
             this.TxtDin6.Size = new System.Drawing.Size(76, 29);
-            this.TxtDin6.TabIndex = 77;
+            this.TxtDin6.TabIndex = 2;
             // 
             // TxtBeden6
             // 
-            this.TxtBeden6.Location = new System.Drawing.Point(225, 23);
+            this.TxtBeden6.Location = new System.Drawing.Point(246, 26);
             this.TxtBeden6.Name = "TxtBeden6";
             this.TxtBeden6.Size = new System.Drawing.Size(76, 29);
-            this.TxtBeden6.TabIndex = 76;
+            this.TxtBeden6.TabIndex = 1;
             // 
             // TxtSosyal6
             // 
-            this.TxtSosyal6.Location = new System.Drawing.Point(225, 349);
+            this.TxtSosyal6.Location = new System.Drawing.Point(246, 267);
             this.TxtSosyal6.Name = "TxtSosyal6";
             this.TxtSosyal6.Size = new System.Drawing.Size(76, 29);
-            this.TxtSosyal6.TabIndex = 75;
+            this.TxtSosyal6.TabIndex = 7;
             // 
             // TxtTeknoloji6
             // 
-            this.TxtTeknoloji6.Location = new System.Drawing.Point(225, 412);
+            this.TxtTeknoloji6.Location = new System.Drawing.Point(246, 305);
             this.TxtTeknoloji6.Name = "TxtTeknoloji6";
             this.TxtTeknoloji6.Size = new System.Drawing.Size(76, 29);
-            this.TxtTeknoloji6.TabIndex = 74;
+            this.TxtTeknoloji6.TabIndex = 8;
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(100, 535);
+            this.label10.Location = new System.Drawing.Point(121, 394);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(109, 24);
             this.label10.TabIndex = 73;
@@ -256,7 +269,7 @@ namespace OrtalamaHesaplamaUygulaması
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(135, 476);
+            this.label9.Location = new System.Drawing.Point(156, 350);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(74, 24);
             this.label9.TabIndex = 72;
@@ -265,7 +278,7 @@ namespace OrtalamaHesaplamaUygulaması
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(33, 415);
+            this.label8.Location = new System.Drawing.Point(54, 308);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(175, 24);
             this.label8.TabIndex = 71;
@@ -274,7 +287,7 @@ namespace OrtalamaHesaplamaUygulaması
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(77, 349);
+            this.label7.Location = new System.Drawing.Point(98, 267);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(131, 24);
             this.label7.TabIndex = 70;
@@ -283,7 +296,7 @@ namespace OrtalamaHesaplamaUygulaması
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(145, 297);
+            this.label6.Location = new System.Drawing.Point(166, 229);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(64, 24);
             this.label6.TabIndex = 69;
@@ -292,7 +305,7 @@ namespace OrtalamaHesaplamaUygulaması
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(110, 241);
+            this.label5.Location = new System.Drawing.Point(131, 188);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(99, 24);
             this.label5.TabIndex = 68;
@@ -301,7 +314,7 @@ namespace OrtalamaHesaplamaUygulaması
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(67, 186);
+            this.label4.Location = new System.Drawing.Point(88, 146);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(142, 24);
             this.label4.TabIndex = 67;
@@ -310,7 +323,7 @@ namespace OrtalamaHesaplamaUygulaması
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(90, 131);
+            this.label3.Location = new System.Drawing.Point(111, 110);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(119, 24);
             this.label3.TabIndex = 66;
@@ -319,7 +332,7 @@ namespace OrtalamaHesaplamaUygulaması
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(102, 77);
+            this.label2.Location = new System.Drawing.Point(123, 69);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(107, 24);
             this.label2.TabIndex = 65;
@@ -328,7 +341,7 @@ namespace OrtalamaHesaplamaUygulaması
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(77, 26);
+            this.label1.Location = new System.Drawing.Point(98, 29);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(132, 24);
             this.label1.TabIndex = 64;
@@ -340,10 +353,106 @@ namespace OrtalamaHesaplamaUygulaması
             this.BtnGeri6Sınıf.Location = new System.Drawing.Point(12, 12);
             this.BtnGeri6Sınıf.Name = "BtnGeri6Sınıf";
             this.BtnGeri6Sınıf.Size = new System.Drawing.Size(46, 43);
-            this.BtnGeri6Sınıf.TabIndex = 129;
+            this.BtnGeri6Sınıf.TabIndex = 19;
             this.BtnGeri6Sınıf.Text = "←";
             this.BtnGeri6Sınıf.UseVisualStyleBackColor = true;
             this.BtnGeri6Sınıf.Click += new System.EventHandler(this.BtnGeri6Sınıf_Click);
+            // 
+            // TxtDersSaat3
+            // 
+            this.TxtDersSaat3.Location = new System.Drawing.Point(40, 524);
+            this.TxtDersSaat3.Name = "TxtDersSaat3";
+            this.TxtDersSaat3.Size = new System.Drawing.Size(42, 29);
+            this.TxtDersSaat3.TabIndex = 16;
+            // 
+            // TxtDersSaat2
+            // 
+            this.TxtDersSaat2.Location = new System.Drawing.Point(40, 482);
+            this.TxtDersSaat2.Name = "TxtDersSaat2";
+            this.TxtDersSaat2.Size = new System.Drawing.Size(42, 29);
+            this.TxtDersSaat2.TabIndex = 15;
+            // 
+            // TxtDersSaat1
+            // 
+            this.TxtDersSaat1.Location = new System.Drawing.Point(40, 439);
+            this.TxtDersSaat1.Name = "TxtDersSaat1";
+            this.TxtDersSaat1.Size = new System.Drawing.Size(42, 29);
+            this.TxtDersSaat1.TabIndex = 14;
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Location = new System.Drawing.Point(88, 524);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(142, 24);
+            this.label26.TabIndex = 165;
+            this.label26.Text = "3.Seçmeli Ders:";
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Location = new System.Drawing.Point(88, 482);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(142, 24);
+            this.label25.TabIndex = 164;
+            this.label25.Text = "2.Seçmeli Ders:";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Location = new System.Drawing.Point(88, 436);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(142, 24);
+            this.label24.TabIndex = 163;
+            this.label24.Text = "1.Seçmeli Ders:";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(328, 524);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(97, 24);
+            this.label23.TabIndex = 162;
+            this.label23.Text = "Örn. 78,50";
+            // 
+            // TxtSecmeli3
+            // 
+            this.TxtSecmeli3.Location = new System.Drawing.Point(246, 521);
+            this.TxtSecmeli3.Name = "TxtSecmeli3";
+            this.TxtSecmeli3.Size = new System.Drawing.Size(76, 29);
+            this.TxtSecmeli3.TabIndex = 13;
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(328, 482);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(97, 24);
+            this.label22.TabIndex = 161;
+            this.label22.Text = "Örn. 78,50";
+            // 
+            // TxtSecmeli2
+            // 
+            this.TxtSecmeli2.Location = new System.Drawing.Point(246, 479);
+            this.TxtSecmeli2.Name = "TxtSecmeli2";
+            this.TxtSecmeli2.Size = new System.Drawing.Size(76, 29);
+            this.TxtSecmeli2.TabIndex = 12;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(328, 439);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(97, 24);
+            this.label21.TabIndex = 160;
+            this.label21.Text = "Örn. 78,50";
+            // 
+            // TxtSecmeli1
+            // 
+            this.TxtSecmeli1.Location = new System.Drawing.Point(246, 436);
+            this.TxtSecmeli1.Name = "TxtSecmeli1";
+            this.TxtSecmeli1.Size = new System.Drawing.Size(76, 29);
+            this.TxtSecmeli1.TabIndex = 11;
             // 
             // Frm6Sınıf
             // 
@@ -351,6 +460,18 @@ namespace OrtalamaHesaplamaUygulaması
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(450, 757);
+            this.Controls.Add(this.TxtDersSaat3);
+            this.Controls.Add(this.TxtDersSaat2);
+            this.Controls.Add(this.TxtDersSaat1);
+            this.Controls.Add(this.label26);
+            this.Controls.Add(this.label25);
+            this.Controls.Add(this.label24);
+            this.Controls.Add(this.label23);
+            this.Controls.Add(this.TxtSecmeli3);
+            this.Controls.Add(this.label22);
+            this.Controls.Add(this.TxtSecmeli2);
+            this.Controls.Add(this.label21);
+            this.Controls.Add(this.TxtSecmeli1);
             this.Controls.Add(this.BtnGeri6Sınıf);
             this.Controls.Add(this.BtnTemizle6);
             this.Controls.Add(this.BtnHesapla6);
@@ -386,6 +507,7 @@ namespace OrtalamaHesaplamaUygulaması
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(6);
             this.MaximizeBox = false;
             this.Name = "Frm6Sınıf";
@@ -430,5 +552,17 @@ namespace OrtalamaHesaplamaUygulaması
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button BtnGeri6Sınıf;
+        private System.Windows.Forms.TextBox TxtDersSaat3;
+        private System.Windows.Forms.TextBox TxtDersSaat2;
+        private System.Windows.Forms.TextBox TxtDersSaat1;
+        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.TextBox TxtSecmeli3;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.TextBox TxtSecmeli2;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.TextBox TxtSecmeli1;
     }
 }

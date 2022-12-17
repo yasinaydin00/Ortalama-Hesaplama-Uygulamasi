@@ -29,6 +29,7 @@ namespace OrtalamaHesaplamaUygulaması
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm12SınıfSayısal));
             this.BtnGeri = new System.Windows.Forms.Button();
             this.label13 = new System.Windows.Forms.Label();
             this.TxtSecmeliBiyoloji12 = new System.Windows.Forms.TextBox();
@@ -448,6 +449,7 @@ namespace OrtalamaHesaplamaUygulaması
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(6);
             this.MaximizeBox = false;
             this.Name = "Frm12SınıfSayısal";

@@ -29,6 +29,7 @@ namespace OrtalamaHesaplamaUygulaması
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm11Sınıf));
             this.BtnSozel11 = new System.Windows.Forms.Button();
             this.BtnEsitAgırlık11 = new System.Windows.Forms.Button();
             this.BtnSayısal11 = new System.Windows.Forms.Button();
@@ -87,6 +88,7 @@ namespace OrtalamaHesaplamaUygulaması
             this.Controls.Add(this.BtnSayısal11);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(6);
             this.MaximizeBox = false;
             this.Name = "Frm11Sınıf";

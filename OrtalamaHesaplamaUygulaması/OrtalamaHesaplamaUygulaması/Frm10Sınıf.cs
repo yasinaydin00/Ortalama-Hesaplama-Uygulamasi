@@ -32,6 +32,12 @@ namespace OrtalamaHesaplamaUygulaması
             TxtYabancıDil10.Text = "";
             Txt2YabancıDil10.Text = "";
             TxtFelsefe10.Text = "";
+            TxtSecmeli1.Text = "";
+            TxtSecmeli2.Text = "";
+            TxtSecmeli3.Text = "";
+            TxtDersSaat1.Text = "";
+            TxtDersSaat2.Text = "";
+            TxtDersSaat3.Text = "";
             TxtBeden10.Focus();
         }
 
@@ -66,7 +72,21 @@ namespace OrtalamaHesaplamaUygulaması
             double yabancil2dil10 = (2 * yabancıdil2);
             double felsefe10 = (2 * felsefe);
 
-            ortalama = (beden10 + matematik10 + fizik10 + kimya10 + biyoloji10 + din10 + tarih10 + cografya10 + edebiyat10 + gorsel10 + yabancıdil10 + yabancil2dil10 + felsefe10) / 35;
+            int secmeli1, secmeli2, secmeli3, secmelisaat1, secmelisaat2, secmelisaat3, toplam;
+            secmeli1 = Convert.ToInt16(TxtSecmeli1.Text);
+            secmeli2 = Convert.ToInt16(TxtSecmeli2.Text);
+            secmeli3 = Convert.ToInt16(TxtSecmeli3.Text);
+            secmelisaat1 = Convert.ToInt16(TxtDersSaat1.Text);
+            secmelisaat2 = Convert.ToInt16(TxtDersSaat2.Text);
+            secmelisaat3 = Convert.ToInt16(TxtDersSaat3.Text);
+
+            int secmeli01 = (secmeli1 * secmelisaat1);
+            int secmeli02 = (secmeli2 * secmelisaat2);
+            int secmeli03 = (secmeli3 * secmelisaat3);
+
+            toplam = (secmelisaat1 + secmelisaat2 + secmelisaat3 + 35);
+
+            ortalama = (beden10 + matematik10 + fizik10 + kimya10 + biyoloji10 + din10 + tarih10 + cografya10 + edebiyat10 + gorsel10 + yabancıdil10 + yabancil2dil10 + felsefe10 + secmeli01 + secmeli02 + secmeli03) / toplam;
 
             if (ortalama >= 85)
             {

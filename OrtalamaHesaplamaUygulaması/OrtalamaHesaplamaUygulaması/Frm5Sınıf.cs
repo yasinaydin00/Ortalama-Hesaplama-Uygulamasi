@@ -29,6 +29,12 @@ namespace OrtalamaHesaplamaUygulaması
             TxtTürkçe5.Text = "";
             TxtYabancıDil5.Text = "";
             TxtSosyal5.Text = "";
+            TxtSecmeli1.Text = "";
+            TxtSecmeli2.Text = "";
+            TxtSecmeli3.Text = "";
+            TxtDersSaat1.Text = "";
+            TxtDersSaat2.Text = "";
+            TxtDersSaat3.Text = "";
             TxtBeden5.Focus();
         }
 
@@ -57,7 +63,21 @@ namespace OrtalamaHesaplamaUygulaması
             double türkce4 = (6 * türkçe5);
             double yabancıdil4 = (3 * yabancıdil5);
 
-            ortalama5 = (beden4 + din4 + fen4 + gorsel4 + matematik4 + müzik4 + sosyal4 + bilisimteknoloji4 + türkce4 + yabancıdil4) / 29;
+            int secmeli1, secmeli2, secmeli3, secmelisaat1, secmelisaat2, secmelisaat3, toplam;
+            secmeli1 = Convert.ToInt16(TxtSecmeli1.Text);
+            secmeli2 = Convert.ToInt16(TxtSecmeli2.Text);
+            secmeli3 = Convert.ToInt16(TxtSecmeli3.Text);
+            secmelisaat1 = Convert.ToInt16(TxtDersSaat1.Text);
+            secmelisaat2 = Convert.ToInt16(TxtDersSaat2.Text);
+            secmelisaat3 = Convert.ToInt16(TxtDersSaat3.Text);
+
+            int secmeli01 = (secmeli1 * secmelisaat1);
+            int secmeli02 = (secmeli2 * secmelisaat2);
+            int secmeli03 = (secmeli3 * secmelisaat3);
+
+            toplam = (secmelisaat1 + secmelisaat2 + secmelisaat3 + 29);
+
+            ortalama5 = (beden4 + din4 + fen4 + gorsel4 + matematik4 + müzik4 + sosyal4 + bilisimteknoloji4 + türkce4 + yabancıdil4 + secmeli01 + secmeli02 + secmeli03) / toplam;
 
             if (ortalama5 >= 85)
             {

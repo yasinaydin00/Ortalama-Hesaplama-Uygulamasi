@@ -29,6 +29,7 @@ namespace OrtalamaHesaplamaUygulaması
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmOrtaokul));
             this.Btn8Sınıf = new System.Windows.Forms.Button();
             this.Btn7Sınıf = new System.Windows.Forms.Button();
             this.Btn6Sınıf = new System.Windows.Forms.Button();
@@ -100,6 +101,7 @@ namespace OrtalamaHesaplamaUygulaması
             this.Controls.Add(this.Btn8Sınıf);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(6);
             this.MaximizeBox = false;
             this.Name = "FrmOrtaokul";

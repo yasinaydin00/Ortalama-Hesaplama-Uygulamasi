@@ -29,6 +29,7 @@ namespace OrtalamaHesaplamaUygulaması
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm12SınıfEsitAgırlık));
             this.BtnGeri = new System.Windows.Forms.Button();
             this.BtnTemizle12 = new System.Windows.Forms.Button();
             this.BtnHesapla12 = new System.Windows.Forms.Button();
@@ -448,7 +449,8 @@ namespace OrtalamaHesaplamaUygulaması
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.MaximizeBox = false;
             this.Name = "Frm12SınıfEsitAgırlık";
             this.Text = "12SINIF-ESİT AGIRLIK";
